@@ -1,0 +1,15 @@
+Scenario: follow_leading_vehicle
+
+> Simulation Information
+Start Time: 2025-11-16 20:35:18
+End Time: 2025-11-16 20:35:59
+Duration (System Time): 41.45s
+Duration (Game Time): 41.42s
+Ratio (System Time / Game Time): 0.999s
+
+> Criteria Information
+Actor: citroen.c3 (id=207)
+Criterion: CollisionTest (Req.) | Result: FAILURE | Actual Value: 2 | Expected Value: 0
+Criterion: Timeout (Req.)       | Result: SUCCESS | Actual Value: 41.42 | Expected Value: 600
+
+GLOBAL RESULT: FAILURE

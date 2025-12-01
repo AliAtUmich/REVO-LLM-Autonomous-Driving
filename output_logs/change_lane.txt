@@ -1,0 +1,15 @@
+Scenario: change_lane
+
+> Simulation Information
+Start Time: 2025-11-16 20:45:01
+End Time: 2025-11-16 20:46:21
+Duration (System Time): 80.07s
+Duration (Game Time): 80.03s
+Ratio (System Time / Game Time): 0.999s
+
+> Criteria Information
+Actor: citroen.c3 (id=207)
+Criterion: CollisionTest (Req.) | Result: FAILURE | Actual Value: 1 | Expected Value: 0
+Criterion: Timeout (Req.)       | Result: FAILURE | Actual Value: 80.03 | Expected Value: 80
+
+GLOBAL RESULT: FAILURE

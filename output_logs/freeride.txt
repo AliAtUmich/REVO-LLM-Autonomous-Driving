@@ -1,0 +1,15 @@
+Scenario: freeride
+
+> Simulation Information
+Start Time: 2025-11-16 20:52:27
+End Time: 2025-11-16 20:54:39
+Duration (System Time): 131.68s
+Duration (Game Time): 131.77s
+Ratio (System Time / Game Time): 1.001s
+
+> Criteria Information
+Actor: mercedes-benz.coupe (id=403)
+Criterion: CollisionTest (Req.) | Result: SUCCESS | Actual Value: 0 | Expected Value: 0
+Criterion: Timeout (Req.)      | Result: SUCCESS | Actual Value: 131.77 | Expected Value: 10000000
+
+GLOBAL RESULT: SUCCESS
